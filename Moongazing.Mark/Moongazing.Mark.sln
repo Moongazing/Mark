@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{231D4872-4177-4FC9-967C-17A77D6A0F9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli", "cli", "{9041F90F-AE31-43B2-9A08-2891EAD685B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Mark", "src\Moongazing.Mark\Moongazing.Mark.csproj", "{D6C8D1B2-98D9-4926-82D2-8C4F301491D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Mark.CLI", "cli\Moongazing.Mark.CLI\Moongazing.Mark.CLI.csproj", "{F65027AE-46D2-4B7B-B164-ABC7FAD5473F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C8D1B2-98D9-4926-82D2-8C4F301491D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C8D1B2-98D9-4926-82D2-8C4F301491D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C8D1B2-98D9-4926-82D2-8C4F301491D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C8D1B2-98D9-4926-82D2-8C4F301491D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65027AE-46D2-4B7B-B164-ABC7FAD5473F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65027AE-46D2-4B7B-B164-ABC7FAD5473F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65027AE-46D2-4B7B-B164-ABC7FAD5473F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65027AE-46D2-4B7B-B164-ABC7FAD5473F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6C8D1B2-98D9-4926-82D2-8C4F301491D1} = {231D4872-4177-4FC9-967C-17A77D6A0F9D}
+		{F65027AE-46D2-4B7B-B164-ABC7FAD5473F} = {9041F90F-AE31-43B2-9A08-2891EAD685B7}
+	EndGlobalSection
+EndGlobal

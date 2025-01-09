@@ -1,5 +1,3 @@
-Here’s a detailed README.md for your PDF Watermarker project:
-
 # PDF Watermarker
 
 A versatile and reusable library for adding watermarks (text or image) to PDF files. This library is designed for CLI, GUI, and integration as a NuGet package. It supports advanced features such as transparency, positioning, and batch processing.
